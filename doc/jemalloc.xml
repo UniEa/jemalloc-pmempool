@@ -9,7 +9,7 @@
   <refentryinfo>
     <title>User Manual</title>
     <productname>jemalloc</productname>
-    <releaseinfo role="version">3.6.0-0-g46c0af68bd248b04df75e4f92d5fb804c3d75340</releaseinfo>
+    <releaseinfo role="version"></releaseinfo>
     <authorgroup>
       <author>
         <firstname>Jason</firstname>
@@ -54,7 +54,7 @@
   </refnamediv>
   <refsect1 id="library">
     <title>LIBRARY</title>
-    <para>This manual describes jemalloc 3.6.0-0-g46c0af68bd248b04df75e4f92d5fb804c3d75340.  More information
+    <para>This manual describes jemalloc .  More information
     can be found at the <ulink
     url="http://www.canonware.com/jemalloc/">jemalloc website</ulink>.</para>
   </refsect1>

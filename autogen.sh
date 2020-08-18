@@ -10,7 +10,7 @@ for i in autoconf; do
 done
 
 echo "./configure --enable-autogen $@"
-./configure --enable-autogen --with-jemalloc-prefix $@
+./configure --enable-autogen --with-jemalloc-prefix --disable-tcache$@
 if [ $? -ne 0 ]; then
     echo "Error $? in ./configure"
     exit 1

@@ -115,7 +115,7 @@
  * This makes it possible to allocate/deallocate objects without any locking
  * when the cache is in the steady state.
  */
-#define JEMALLOC_TCACHE 
+/* #undef JEMALLOC_TCACHE */
 
 /*
  * JEMALLOC_DSS enables use of sbrk(2) to allocate chunks from the data storage
