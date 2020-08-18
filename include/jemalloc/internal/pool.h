@@ -1,7 +1,7 @@
 /******************************************************************************/
 #ifdef JEMALLOC_H_TYPES
 
-#define PMEMPOOL_SIZE 160*1024*1024 
+#define PMEMPOOL_SIZE 1024LL*1024*1024 
 typedef struct pmempool_s pmempool_t;
 typedef struct freelist_s freelist_t;
 typedef struct filelist_s filelist_t;
